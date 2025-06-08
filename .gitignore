@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+# Не коммитьте токены/ключи!
+
+# Database files
+*.db
+*.sqlite
+*.db-journal
+
+# Python cache
+__pycache__/
+*.py[cod]
+.python-version
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Lock files
+uv.lock
+pip-lock.json
+poetry.lock
+
+# Jupyter and notebook files (если используете)
+*.ipynb
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
